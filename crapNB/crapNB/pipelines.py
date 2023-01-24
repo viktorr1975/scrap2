@@ -29,8 +29,8 @@ class SimpleSqlitePipeline:
         );
         """)
         self.con.commit()
-        self.cur.execute("DELETE FROM computers;")
-        self.con.commit()
+#        self.cur.execute("DELETE FROM computers;")
+#        self.con.commit()
 
 
     def process_item(self, item, spider):
